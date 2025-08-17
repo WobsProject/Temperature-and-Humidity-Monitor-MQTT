@@ -15,10 +15,10 @@ This project is built using **ESP32/Arduino + DHT sensor**, and the data can be 
 ---
 
 ## 🛠️ Hardware & Tools
-- **ESP32** (or Arduino with WiFi)
+- **ESP32**
 - **DHT11 / DHT22 Sensor**
+- Arduino Framwork
 - MQTT Broker (HiveMQ)
-- Optional: Node-RED / Grafana for dashboard
 
 ---
 
