@@ -16,7 +16,8 @@ This project is built using **ESP32/Arduino + DHT sensor**, and the data can be 
 
 ## 🛠️ Hardware & Tools
 - **ESP32**
-- **DHT11 / DHT22 Sensor**
+- **DHT22 Sensor**
+- **Humidity Sensor**
 - Arduino Framwork
 - MQTT Broker (HiveMQ)
 
