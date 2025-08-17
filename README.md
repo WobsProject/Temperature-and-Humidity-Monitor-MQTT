@@ -26,6 +26,6 @@ This project is built using **ESP32/Arduino + DHT sensor**, and the data can be 
 ## 🔗 System Architecture
 ```mermaid
 flowchart LR
-  Sensor[DHT11/DHT22 Sensor] --> |Data| ESP32
+  Sensor[DHT22 Sensor & Humidity Sensor] --> |Data| ESP32
   ESP32 --> |MQTT Publish| Broker((MQTT Broker))
   Broker --> |Subscribe| Dashboard[Dashboard / App]
